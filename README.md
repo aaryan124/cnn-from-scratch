@@ -1,25 +1,28 @@
-# CNN from Scratch
+# Neural Networks from Scratch (NumPy)
 
-This is a simple Convolutional Neural Network (CNN) implemented from scratch using NumPy.  
-It includes convolution, max-pooling, dense layers
+This repository contains core deep learning architectures — **RNN**, **LSTM**, and **CNN** — implemented completely from scratch using **NumPy**, without any deep learning libraries.
 
-🧠 Built for learning purposes — no external deep learning libraries used.
-
-## Features
-- Conv2D with stride and padding
-- MaxPooling
-- Dense Layer
-- ReLU & Softmax activations
-- Cross-entropy loss
-- Manual backpropagation
-
-## Dataset
-Tested on MNIST (28x28 handwritten digits).
-
-## Usage
-Run the `.ipynb` notebook to train the model.
+🧠 Built for learning purposes.  
+📚 Project purpose: To study and understand the internals of deep learning models through hands-on implementation.
 
 ---
 
-🔬 Author: [Aaryan](https://github.com/aaryan124)  
-📚 Project purpose: Study and understand deep learning internals.
+## 📦 Architectures Included
+
+### 🔁 RNN (Recurrent Neural Network)
+- Basic sequence model using `tanh` activation
+- Forward and Backward Pass (Backpropagation Through Time)
+- Designed for character or sequence prediction
+
+### 🧠 LSTM (Long Short-Term Memory)
+- Handles long-term dependencies better than RNN
+- Includes Forget, Input, Candidate, and Output gates
+- Manual gradient computation
+
+### 🧱 CNN (Convolutional Neural Network)
+- 2D Convolution Layer (with padding and stride)
+- MaxPooling
+- Fully Connected (Dense) Layers
+- ReLU and Softmax activations
+- Cross-entropy loss
+---
